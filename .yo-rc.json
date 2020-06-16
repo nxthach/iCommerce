@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.nab"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "gateway",
+    "baseName": "iCommerce",
+    "packageName": "com.nab",
+    "packageFolder": "com/nab",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDI4MTdjZmEzNWQ2ZGE5MmJjNzg4NzYzNzBmZjhhMjY2NzFjYzkwNmYwZDA2ZDQ1MGQ0ZjY4MmViODI3NzJiNDEwYWRiOGZkYTI3ODkwNTI0M2M2OWUxZjk1MTk4ZDBhOGJkMmIwYTM2MWRlNmQ3ODRmNGRmMGM4ODRjODcxZDQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1592278761600,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

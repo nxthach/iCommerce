@@ -1,0 +1,11 @@
+version: '2'
+services:
+  icommerce-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/iCommerce/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=iCommerce
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
